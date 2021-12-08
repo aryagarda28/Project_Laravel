@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to left, #111111, #e20808);
+    font-family: 'Bebas Neue', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.kotak{
+	display: grid;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	grid-template-columns: repeat(4, auto);
+}
